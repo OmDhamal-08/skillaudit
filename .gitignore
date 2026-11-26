@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual envs
+.venv/
+venv/
+
+# Tools
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets - never commit API keys
+.env
+
+# Editors / OS
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Output from the GitHub Action when run locally
+skillaudit-report.md
+
+# Personal notes, kept out of the repo
+docs/PROJECT_GUIDE.md
+PUSH_PLAN.md
